@@ -32,16 +32,17 @@ namespace SaveTheOcean2
             }
             else
             {
-                try
+                IRescueDAO recordDAO = new RescueDAO(NpgsqlUtils.OpenConnection());
+                List<Rescue> rescue =recordDAO.GetRescueById(textBoxId.Text);
+                if (rescue[0].IdRescue==textBoxId.Text)
                 {
-                    IRescueDAO recordDAO = new RescueDAO(NpgsqlUtils.OpenConnection());
-                    List<Rescue> rescue =recordDAO.GetRescueById(textBoxId.Text);
                     dataGridSelectId.DataSource = rescue;
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show($"The rescue with id {textBoxId.Text} doesn't exist");
+                   MessageBox.Show("No rescue found with that ID");
                 }
+                
             }
         }
     }

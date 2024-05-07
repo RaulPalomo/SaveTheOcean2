@@ -28,3 +28,4 @@ C:\Users\raul8\Desktop\Programacion\projectes\SaveTheOcean2\SaveTheOcean2\bin\De
 C:\Users\raul8\Desktop\Programacion\projectes\SaveTheOcean2\SaveTheOcean2\bin\Debug\net8.0-windows\Npgsql.dll
 C:\Users\raul8\Desktop\Programacion\projectes\SaveTheOcean2\SaveTheOcean2\obj\Debug\net8.0-windows\SaveTheO.BC87EB74.Up2Date
 C:\Users\raul8\Desktop\Programacion\projectes\SaveTheOcean2\SaveTheOcean2\obj\Debug\net8.0-windows\SaveTheOcean2.Form2.resources
+C:\Users\raul8\Desktop\Programacion\projectes\SaveTheOcean2\SaveTheOcean2\obj\Debug\net8.0-windows\SaveTheOcean2.sourcelink.json

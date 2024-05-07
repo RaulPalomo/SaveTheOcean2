@@ -26,7 +26,6 @@ namespace SaveTheOcean2
         public static void CreatePersonaXml()
         {
             XmlDocument xmlDocument = new XmlDocument();
-            
             XmlElement root = xmlDocument.CreateElement("Persones");
             xmlDocument.AppendChild(root);
             root.InnerText = "";

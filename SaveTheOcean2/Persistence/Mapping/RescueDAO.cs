@@ -73,6 +73,7 @@ namespace AC4.Persistence.Mapping
         {
 
             Rescue rescue = new Rescue();
+            
             using (NpgsqlConnection connection = new NpgsqlConnection(connectionString))
             {
                 connection.Open();
@@ -95,9 +96,10 @@ namespace AC4.Persistence.Mapping
                     }
                 }
             }
-            List<Rescue> rescues = new List<Rescue>();
-            rescues.Add(rescue);
+            List<Rescue> rescues = new List<Rescue> { rescue};
+            
             return rescues;
+
         }
 
         
